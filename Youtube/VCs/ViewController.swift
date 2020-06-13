@@ -8,14 +8,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class MainVC: UIViewController {
+    
+    // MARK: - Properties
+    @IBOutlet weak var tableView: UITableView!
     var model = Model()
     
+    // MARK: - App lifecycle funcs
     override func viewDidLoad() {
         super.viewDidLoad()
     
+        // Get the videos
         model.getVideos()
         
     }
+    
+    // MARK: - Methods
+    
 }

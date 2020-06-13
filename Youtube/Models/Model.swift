@@ -10,6 +10,8 @@ import Foundation
 
 class Model {
     
+    var delegate: ModelDelegate?
+    
     func getVideos() {
         
         // Create a URL
@@ -38,7 +40,16 @@ class Model {
                 
                 // This all the data returned by the API
                 let response = try decoder.decode(Response.self, from: data!)
-                response.items?.count
+                
+                // If there are videos pass them to MainVC
+                if response.items != nil {
+                    
+                    // Use the main thread to pass the videos
+                    DispatchQueue.main.async {
+                        // Call the videosFetched method of the delegate
+                        self.delegate?.videosFetched(response.items!)
+                    }
+                }
                 
             } catch {
                 print(error)
