@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023BC54C24952F040010D206 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023BC54B24952F040010D206 /* ConstantsTemplate.swift */; };
 		02B6064C249434E500BEEE90 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6064B249434E500BEEE90 /* Constants.swift */; };
 		02B6064E2494376E00BEEE90 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6064D2494376E00BEEE90 /* Video.swift */; };
 		02B60650249437C700BEEE90 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6064F249437C700BEEE90 /* Model.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		023BC54B24952F040010D206 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 		02B6064B249434E500BEEE90 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		02B6064D2494376E00BEEE90 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		02B6064F249437C700BEEE90 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				02B6065324943A0200BEEE90 /* Models */,
 				02B6065424943A1300BEEE90 /* Storyboards */,
 				02B6064B249434E500BEEE90 /* Constants.swift */,
+				023BC54B24952F040010D206 /* ConstantsTemplate.swift */,
 				02D132ED24942B5200D87339 /* Assets.xcassets */,
 				02D132F224942B5200D87339 /* Info.plist */,
 			);
@@ -185,6 +188,7 @@
 				02D132E924942B5100D87339 /* ViewController.swift in Sources */,
 				02D132E524942B5100D87339 /* AppDelegate.swift in Sources */,
 				02D132E724942B5100D87339 /* SceneDelegate.swift in Sources */,
+				023BC54C24952F040010D206 /* ConstantsTemplate.swift in Sources */,
 				02B60650249437C700BEEE90 /* Model.swift in Sources */,
 				02B6064C249434E500BEEE90 /* Constants.swift in Sources */,
 				02B6064E2494376E00BEEE90 /* Video.swift in Sources */,
