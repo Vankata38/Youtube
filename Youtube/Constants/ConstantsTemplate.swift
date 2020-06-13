@@ -9,7 +9,7 @@
 
 import Foundation
 
-
+/*
 struct Constants {
 
     // Add your keys here
@@ -19,4 +19,4 @@ struct Constants {
     static var videoCellID = "VideoCell"
  
 }
-
+*/
