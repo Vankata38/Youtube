@@ -36,9 +36,9 @@ class Model {
                 let decoder = JSONDecoder()
                 decoder.dateDecodingStrategy = .iso8601
                 
+                // This all the data returned by the API
                 let response = try decoder.decode(Response.self, from: data!)
                 
-                dump(response)
                 
             } catch {
                 print(error)

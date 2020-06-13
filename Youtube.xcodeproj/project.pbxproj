@@ -66,8 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				02B6064D2494376E00BEEE90 /* Video.swift */,
-				02B6064F249437C700BEEE90 /* Model.swift */,
 				02B60655249442E600BEEE90 /* Response.swift */,
+				02B6064F249437C700BEEE90 /* Model.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
