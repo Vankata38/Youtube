@@ -38,7 +38,7 @@ class Model {
                 
                 // This all the data returned by the API
                 let response = try decoder.decode(Response.self, from: data!)
-                
+                response.items?.count
                 
             } catch {
                 print(error)
