@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0204FCBE249A7D6700FAF81B /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0204FCBD249A7D6700FAF81B /* VideoCell.swift */; };
 		023BC54C24952F040010D206 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023BC54B24952F040010D206 /* ConstantsTemplate.swift */; };
 		023BC5512495381C0010D206 /* ModelDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023BC5502495381C0010D206 /* ModelDelegateProtocol.swift */; };
+		026299EC249A8473004C2312 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026299EB249A8473004C2312 /* CacheManager.swift */; };
 		02B6064C249434E500BEEE90 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6064B249434E500BEEE90 /* Constants.swift */; };
 		02B6064E2494376E00BEEE90 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6064D2494376E00BEEE90 /* Video.swift */; };
 		02B60650249437C700BEEE90 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6064F249437C700BEEE90 /* Model.swift */; };
@@ -22,8 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0204FCBD249A7D6700FAF81B /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VideoCell.swift; path = Youtube/Views/VideoCell.swift; sourceTree = SOURCE_ROOT; };
 		023BC54B24952F040010D206 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 		023BC5502495381C0010D206 /* ModelDelegateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDelegateProtocol.swift; sourceTree = "<group>"; };
+		026299EB249A8473004C2312 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		02B6064B249434E500BEEE90 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Youtube/Constants.swift; sourceTree = SOURCE_ROOT; };
 		02B6064D2494376E00BEEE90 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		02B6064F249437C700BEEE90 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0204FCBF249A7D9700FAF81B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0204FCBD249A7D6700FAF81B /* VideoCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		023BC54F249538060010D206 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
@@ -57,13 +69,14 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
-		023BC552249538340010D206 /* Constants */ = {
+		023BC552249538340010D206 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				026299EB249A8473004C2312 /* CacheManager.swift */,
 				02B6064B249434E500BEEE90 /* Constants.swift */,
 				023BC54B24952F040010D206 /* ConstantsTemplate.swift */,
 			);
-			path = Constants;
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		02B606512494398100BEEE90 /* Delegates */ = {
@@ -122,11 +135,12 @@
 			isa = PBXGroup;
 			children = (
 				02B606512494398100BEEE90 /* Delegates */,
+				02B6065424943A1300BEEE90 /* Storyboards */,
 				02B606522494399100BEEE90 /* VCs */,
+				0204FCBF249A7D9700FAF81B /* Views */,
 				02B6065324943A0200BEEE90 /* Models */,
 				023BC54F249538060010D206 /* Protocols */,
-				023BC552249538340010D206 /* Constants */,
-				02B6065424943A1300BEEE90 /* Storyboards */,
+				023BC552249538340010D206 /* Helper */,
 				02D132ED24942B5200D87339 /* Assets.xcassets */,
 				02D132F224942B5200D87339 /* Info.plist */,
 			);
@@ -209,6 +223,8 @@
 				02D132E524942B5100D87339 /* AppDelegate.swift in Sources */,
 				02D132E724942B5100D87339 /* SceneDelegate.swift in Sources */,
 				023BC54C24952F040010D206 /* ConstantsTemplate.swift in Sources */,
+				0204FCBE249A7D6700FAF81B /* VideoCell.swift in Sources */,
+				026299EC249A8473004C2312 /* CacheManager.swift in Sources */,
 				02B60650249437C700BEEE90 /* Model.swift in Sources */,
 				02B6064C249434E500BEEE90 /* Constants.swift in Sources */,
 				02B6064E2494376E00BEEE90 /* Video.swift in Sources */,
