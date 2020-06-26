@@ -15,6 +15,7 @@
 		02B6064E2494376E00BEEE90 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6064D2494376E00BEEE90 /* Video.swift */; };
 		02B60650249437C700BEEE90 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6064F249437C700BEEE90 /* Model.swift */; };
 		02B60656249442E600BEEE90 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B60655249442E600BEEE90 /* Response.swift */; };
+		02BF108924A560AE00BEB72A /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF108824A560AE00BEB72A /* DetailVC.swift */; };
 		02D132E524942B5100D87339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D132E424942B5100D87339 /* AppDelegate.swift */; };
 		02D132E724942B5100D87339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D132E624942B5100D87339 /* SceneDelegate.swift */; };
 		02D132E924942B5100D87339 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D132E824942B5100D87339 /* MainVC.swift */; };
@@ -32,6 +33,7 @@
 		02B6064D2494376E00BEEE90 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		02B6064F249437C700BEEE90 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		02B60655249442E600BEEE90 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		02BF108824A560AE00BEB72A /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		02D132E124942B5100D87339 /* Youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Youtube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D132E424942B5100D87339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02D132E624942B5100D87339 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				02D132E824942B5100D87339 /* MainVC.swift */,
+				02BF108824A560AE00BEB72A /* DetailVC.swift */,
 			);
 			path = VCs;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				02D132E524942B5100D87339 /* AppDelegate.swift in Sources */,
 				02D132E724942B5100D87339 /* SceneDelegate.swift in Sources */,
 				023BC54C24952F040010D206 /* ConstantsTemplate.swift in Sources */,
+				02BF108924A560AE00BEB72A /* DetailVC.swift in Sources */,
 				0204FCBE249A7D6700FAF81B /* VideoCell.swift in Sources */,
 				026299EC249A8473004C2312 /* CacheManager.swift in Sources */,
 				02B60650249437C700BEEE90 /* Model.swift in Sources */,

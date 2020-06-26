@@ -24,8 +24,6 @@ class VideoCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        
         
     }
     
@@ -42,7 +40,7 @@ class VideoCell: UITableViewCell {
         
         // Convert and set the date
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "EEEE, MMM d, yyyy"
+        dateFormatter.dateFormat = Constants.dateFormat
         self.date.text = dateFormatter.string(from: video!.published)
         
         // Ensure that we have a thumbnail url

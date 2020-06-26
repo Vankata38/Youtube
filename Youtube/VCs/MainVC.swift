@@ -32,6 +32,24 @@ class MainVC: UIViewController, UITableViewDataSource, UITableViewDelegate, Mode
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // Chech the video
+        guard tableView.indexPathForSelectedRow != nil else {
+            return
+        }
+        
+        // Get the video
+        let selectedVideo = videos[tableView.indexPathForSelectedRow!.row]
+        
+        // Get the VC
+        let detailVC = segue.destination as! DetailVC
+        
+        // Set the property
+        detailVC.video = selectedVideo
+        
+    }
+    
     
     // MARK: - Model Delegate Methods
     func videosFetched(_ videos: [Video]) {
@@ -67,7 +85,8 @@ class MainVC: UIViewController, UITableViewDataSource, UITableViewDelegate, Mode
     }
  
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+        
         
     }
-    
 }

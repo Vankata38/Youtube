@@ -54,13 +54,8 @@ class Model {
             } catch {
                 print(error)
             }
-            
-            
         }
-        
         // Kick off the task
         dataTask.resume()
-        
     }
-    
 }
